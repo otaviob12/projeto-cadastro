@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="estilos/style.css">
+  <link rel="stylesheet" href="estilos/media-query.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+<main>
+  
+    <h2 id="header-h2">Aprenda a codificar observando os outros</h2><p id="header-p">Veja como desenvolvedores experientes resolvem problemas em tempo real. Assistir a tutoriais com script é ótimo, mas entender como os desenvolvedores pensam é inestimável.
+  </p>
+  <h1>Experimente grátis por 7 dias e depois R$ 20/mês.</h1>
+        <section id="cadastro">
+          <form action="login.php" method="post" autocomplete="on">
+            <div class="campo">
+              <input type="text" name="nome" id="inome" placeholder="Primeiro Nome" autocomplete="name" required maxlength="30">
+              <label for="inome"></label>
+            </div>
+            <div class="campo">
+              <input type="text" name="sobre" id="isobre" placeholder="Segundo Nome" autocomplete="name" required maxlength="30">
+              <label for="isobre"></label>
+            </div>
+            <div class="campo">
+              <input type="email" name="email" id="iemail" placeholder="Seu E-mail" autocomplete="email" required maxlength="30">
+              <label for="iemail"></label>
+            </div>
+            
+            <div class="campo">
+              <input type="password" name="senha" id="isenha" placeholder="Sua Senha" autocomplete="new-password" required minlength="8" maxlength="16">
+              <label for="isenha"></label>
+            </div>
+            <input type="submit" value="Reivindique seu teste gratuito">
+          </form>
+          <p id="c1">Ao clicar no botão, você concorda com nossos <b>Termos e Serviços</b></p>
+        </section>
+</main>
+      <footer>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://github.com/otaviob12" target="_blank">Otávio Baroni</a>.
+        </p>
+      </footer>
+</body>
+</html>
